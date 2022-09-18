@@ -31,7 +31,7 @@
                  &kp LBRC &kp RBRC &kp LALT  &mo LOWER  &kp RET    &kp SPACE        &mo RAISE  &kp RCTRL &kp MINUS &kp EQUAL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
